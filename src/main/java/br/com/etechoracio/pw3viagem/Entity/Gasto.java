@@ -36,6 +36,6 @@ public class Gasto {
     private double valorGasto;
 
     @JoinColumn(name = "ID_VIAGEM")
-    @ManyToMany
+    @ManyToOne
     private Viagem viagem;
 }
